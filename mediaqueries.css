@@ -24,10 +24,30 @@
     }
 
     .skills-items-container {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .skills-item {
-        width: 45%;
+        width: 20%;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    #profile {
+        flex-direction: column;
+    }
+
+    .section__pic-container {
+        padding-top: 2rem;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 2rem;
+    }
+
+    .skills-section-title {
+        font-size: 1.75rem;
+        text-align: center;
     }
 }

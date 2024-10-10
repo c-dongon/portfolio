@@ -113,6 +113,32 @@ a:hover {
     cursor: default;
 }
 
+.hamburger-contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;  
+    right: 1rem;  
+    flex-shrink: 0;  /* Prevents the contact container from shrinking */
+
+}
+
+.nav-btn-color-2-resume {
+    border: white 0.1rem solid;
+    background: none;
+    color: white;
+    width: fit-content;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: -1rem;
+}
+
 #hamburger-nav {
     position: fixed;
     display: none;
@@ -125,10 +151,13 @@ a:hover {
 
 .hamburger-menu {
     position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     background-color: #22223b;
     margin-right: auto;
     z-index: 10;
+    align-items: center;
+    width: 100%;
     margin-left: 1rem;
 }
 
@@ -160,6 +189,7 @@ a:hover {
     overflow: hidden;
     transition: all 0.3 ease-in-out;
     z-index: 10;
+    flex: 1;  /* Takes available space on the left */
 }
 
 .menu-links a {
@@ -319,11 +349,11 @@ section{
     padding-right: 2rem;
 }
 
-.nav-btn-color-2:hover {
+.nav-btn-color-2:hover, .nav-btn-color-2-resume:hover {
     background: #3a3a63;
 }
 
-.btn-color-1:hover, .btn-color-2:hover, .nav-btn-color-2:hover {
+.btn-color-1:hover, .btn-color-2:hover, .nav-btn-color-2:hover, .nav-btn-color-2-resume:hover {
     cursor: pointer;
 }
 
@@ -480,6 +510,7 @@ section{
     gap: 3rem;
     margin-top: -5px;
     margin-bottom: -5px;
+    flex-wrap: wrap;
 }
 
 .skills-icon {
