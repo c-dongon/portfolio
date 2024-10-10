@@ -1,0 +1,33 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+
+    section,
+    .section-container {
+        margin: 0 5%;
+    }
+
+    .section__pic-container {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section__text h1 {
+        font-size: 2rem;
+    }
+
+    .skills-items-container {
+        justify-content: center;
+    }
+
+    .skills-item {
+        width: 45%;
+    }
+}

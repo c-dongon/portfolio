@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Dongon</title>
+    <link rel="icon" href="./assets/profile-pic.png">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="nav-logo">Christian Dongon</div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#profile" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+            </ul>
+        </div>
+        <div class="nav-contact">
+            <div id="socials-container">
+                <img 
+                    src="./assets/linkedin-logo-white.svg" 
+                    alt="My LinkedIn profile"
+                    class="icon" 
+                    onclick="window.open('https://www.linkedin.com/in/christian-dongon-2abba7272/', '_blank')"
+                />
+                <img 
+                    src="./assets/github-logo-white.png" 
+                    alt="My GitHub profile"
+                    class="icon" 
+                    onclick="window.open('https://github.com/c-dongon', '_blank')"
+                />
+                <img 
+                    src="./assets/email-logo-white.png" 
+                    alt="Email address"
+                    class="icon" 
+                    onclick="window.open('mailto:christian.dongon02@gmail.com', '_blank')"
+                />
+            </div>  
+            <div class="btn-container">
+                <button class="btn nav-btn-color-2" onClick="window.open('./assets/resume.pdf')">
+                    Resume
+                </button>
+            </div>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Christian Dongon profile image"/>
+        </div>
+        <div class="section__text">
+            <h1 class="logo"title>Christian Dongon</h1>
+            <p class="section__text__p2">Computer Science Major at UCSC</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onClick="window.open('./assets/resume.pdf')">
+                    Resume
+                </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                    src="./assets/linkedin.png" 
+                    alt="My LinkedIn profile"
+                    class="icon" 
+                    onclick="window.open('https://www.linkedin.com/in/christian-dongon-2abba7272/', '_blank')"
+                />
+                <img 
+                    src="./assets/github.png" 
+                    alt="My GitHub profile"
+                    class="icon" 
+                    onclick="window.open('https://github.com/c-dongon', '_blank')"
+                />
+                <img 
+                    src="./assets/email-logo.png" 
+                    alt="Email address"
+                    class="icon" 
+                    onclick="window.open('mailto:christian.dongon02@gmail.com', '_blank')"
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <p class="about-me-text">Hello! I'm Christian, a sophomore at the <span style="color: #2196f3;">University of California, Santa Cruz</span>,
+                    pursuing a Bachelor of Arts in Computer Science. 
+                    I’m excited to apply my skills and gain real-world experience in software development. </p>
+                <p class="about-me-text">Outside of my technical pursuits, I’m passionate about music and nature, both of which inspire the core concepts of my current projects.</p>
+                <p class="about-me-text">I'm currently seeking <span style="color: #2196f3;">internship oppurtunities in software engineering</span> where I can apply my skills and passion for development.
+                    If you're looking for a motivated learner and developer, contact me—I'd love to connect and discuss how I can contribute to your team! </p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h1 class="title">Technical Skills</h1>
+        <div class="skills-section">
+            <h1 class="skills-section-title">Languages</h1>
+            <div class="skills-items-container">
+                <div class="skills-item">
+                    <img 
+                        src="./assets/python-logo.svg"
+                        alt="Python logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">Python</p>
+                </div>
+                <div class="skills-item">
+                    <img 
+                        src="./assets/javascript-logo.svg"
+                        alt="Javascript logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">JavaScript</p>
+                </div>
+                <div class="skills-item">
+                    <img 
+                        src="./assets/html-logo.svg"
+                        alt="HTML logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">HTML</p>
+                </div>
+                <div class="skills-item">
+                    <img 
+                        src="./assets/css-logo.svg"
+                        alt="CSS logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">CSS</p>
+                </div>
+                <div class="skills-item">
+                    <img 
+                        src="./assets/c-logo.svg"
+                        alt="C logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">C</p>
+                </div>
+                <div class="skills-item">
+                    <img 
+                        src="./assets/java-logo.svg"
+                        alt="Java logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">Java</p>
+                </div>
+            </div>
+            <h1 class="skills-section-title">Libraries and Frameworks</h1>
+            <div class="skills-items-container">
+                <div class="skills-item">
+                    <img 
+                        src="./assets/react-logo.svg"
+                        alt="React logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">React &<br/> React Native</p>
+                </div>
+                <div class="skills-item">
+                    <img 
+                        src="./assets/expo-logo.png"
+                        alt="Expo logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">Expo</p>
+                </div>
+                <div class="skills-item">
+                    <img 
+                        src="./assets/flask-logo.png"
+                        alt="Flask logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">Flask</p>
+                </div>
+            </div>
+            <h1 class="skills-section-title">Tools and Technologies</h1>
+            <div class="skills-items-container">
+                <div class="skills-item">
+                    <img 
+                        src="./assets/git-logo.svg"
+                        alt="Git logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">git</p>
+                </div>
+                <div class="skills-item">
+                    <img 
+                        src="./assets/node-logo.svg"
+                        alt="Node.js logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">Node.js</p>
+                </div>
+                <div class="skills-item">
+                    <img 
+                        src="./assets/rest-logo.svg"
+                        alt="Rest logo"
+                        class="skills-icon"
+                    />
+                    <p class="skills-title">RESTful</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h1 class="title">Projects</h1>
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/vibify.png"
+                            alt="Vibify project"
+                            class="project-img"
+                        />
+                    </div>
+                    <div class="project-title-container">
+                        <h2 class="project-title">Vibify</h2>
+                        <img 
+                        src="./assets/github.png" 
+                        alt="Vibify github repo"
+                        class="project-github-icon" 
+                        onclick="window.open('https://github.com/c-dongon/vibify', '_blank')"
+                        >
+                    </div>
+                    <p class="project-text">A web app that utilizes Spotify API to retrieve user listening data and applies music-analyzing algorithms to determine preferred song attributes, then generates a personalized playlist.</p>
+                    <div class="btn-container">
+                        <img 
+                            src="./assets/react-logo.svg"
+                            alt="React logo"
+                            class="project-skills-icon"
+                        />
+                        <img 
+                            src="./assets/flask-logo.png"
+                            alt="Flask logo"
+                            class="project-skills-icon"
+                        />
+                        <img 
+                            src="./assets/python-logo.svg"
+                            alt="Python logo"
+                            class="project-skills-icon"
+                        />
+                        <img 
+                            src="./assets/rest-logo.svg"
+                            alt="Rest logo"
+                            class="project-skills-icon"
+                        />
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/plantscope.png"
+                            alt="PlantScope project"
+                            class="project-img"
+                        />
+                    </div>
+                    <div class="project-title-container">
+                        <h2 class="project-title">PlantScope</h2>
+                        <img 
+                        src="./assets/github.png" 
+                        alt="PlantScope github repo"
+                        class="project-github-icon" 
+                        onclick="window.open('https://github.com/c-dongon/plantscope', '_blank')"
+                        >
+                    </div>
+                    <p class="project-text">A cross-platform mobile app that allows users to identify plants using photos, utilizing Pl@ntNet API for identification and the MediaWiki API for data. The app also features social functionality, enabling users to sign in, add friends, and view their plant collections.</p>
+                    <div class="btn-container">
+                        <img 
+                            src="./assets/react-logo.svg"
+                            alt="React logo"
+                            class="project-skills-icon"
+                        />
+                        <img 
+                            src="./assets/firebase-logo.png"
+                            alt="Firebase logo"
+                            class="project-skills-icon"
+                        />
+                        <img 
+                            src="./assets/rest-logo.svg"
+                            alt="Rest logo"
+                            class="project-skills-icon"
+                        />
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/profile-pic.png"
+                            alt="Profile picture"
+                            class="project-img"
+                        />
+                    </div>
+                    <div class="project-title-container">
+                        <h2 class="project-title-portfolio">Personal Portfolio</h2>
+                        <img 
+                            src="./assets/github.png" 
+                            alt="Portfolio github repo"
+                            class="project-github-icon" 
+                            onclick="window.open('https://github.com/c-dongon/portfolio', '_blank')"
+                        >
+                    </div>
+                    <p class="project-text">This website! Created with HTML, CSS, and a tiny bit of JavaScript. My goal was to create an intuitive and clean design to showcase my skills and projects.</p>
+                    <div class="btn-container">
+                        <img 
+                            src="./assets/html-logo.svg"
+                            alt="HTML logo"
+                            class="project-skills-icon"
+                        />
+                        <img 
+                            src="./assets/css-logo.svg"
+                            alt="CSS logo"
+                            class="project-skills-icon"
+                        />
+                        <img 
+                            src="./assets/javascript-logo.svg"
+                            alt="JavaScript logo"
+                            class="project-skills-icon"
+                        />
+                    </div>
+                </div>  
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
