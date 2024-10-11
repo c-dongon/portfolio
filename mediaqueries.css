@@ -16,7 +16,7 @@
         height: 200px;
         margin: 0 auto 2rem;
     }
-    
+
     #profile {
         flex-direction: column;
     }
@@ -53,5 +53,10 @@
     .skills-section-title {
         font-size: 1.75rem;
         text-align: center;
+    }
+
+    .about-me-text {
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
