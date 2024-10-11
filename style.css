@@ -37,7 +37,7 @@ a, .btn {
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-
+    animation: fade-right-nav 1s ease;
 }
 
 nav {
@@ -280,11 +280,13 @@ section{
     width: 300px;
     border-radius: 100%;
     margin-bottom: 2rem;
+    animation: fade-right 1s ease;
 }
 
 .section__text {
     align-self: center;
     text-align: center;
+    animation: fade-left 1s ease;
 }
 
 .section__text p {
@@ -541,4 +543,40 @@ section{
 .project-skills-icon {
     aspect-ratio: 1;
     width: 2.5rem;
+}
+
+@keyframes fade-right-nav {
+    0%{
+        opacity: 0;
+        transform: translateX(-200px);
+      }
+      
+      100%{
+        opacity: 1;
+        transform: translateX(0px);
+      }
+}
+
+@keyframes fade-right {
+    0%{
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      
+      100%{
+        opacity: 1;
+        transform: translateX(0px);
+      }
+}
+
+@keyframes fade-left {
+    0%{
+        opacity: 0;
+        transform: translateX(30px);
+      }
+      
+      100%{
+        opacity: 1;
+        transform: translateX(0px);
+      }
 }
