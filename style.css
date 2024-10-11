@@ -62,7 +62,7 @@ nav {
 
 .nav-link.active {
     color: #2196f3; 
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .nav-links ul {
@@ -136,6 +136,11 @@ a:hover {
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: -1rem;
+}
+.nav-btn-color-2-resume:hover {
+    transform: scale(1.05);
+    opacity: 0.75;
+    transition: all 150ms ease;
 }
 
 #hamburger-nav {
@@ -309,6 +314,11 @@ section{
     gap: 1rem;
 }
 
+.redirect-icon {
+    cursor: pointer;
+    height: 1rem;
+}
+
 .icon {
     cursor: pointer;
     height: 2rem;
@@ -354,6 +364,10 @@ section{
 
 .nav-btn-color-2:hover, .nav-btn-color-2-resume:hover {
     background: #3a3a63;
+    border: black 0.1rem solid;
+    transform: scale(1.05);
+    opacity: 0.75;
+    transition: all 150ms ease;
 }
 
 .btn-color-1:hover, .btn-color-2:hover, .nav-btn-color-2:hover, .nav-btn-color-2-resume:hover {
@@ -361,8 +375,7 @@ section{
 }
 
 .btn-color-1, .btn-color-2:hover {
-    background: #22223b;
-    color: white;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .btn-color-1:hover {
@@ -382,7 +395,10 @@ section{
 }
 
 .btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: black 0.1rem solid;
+    transform: scale(1.05);
+    opacity: 0.75;
+    transition: all 150ms ease;
 }
 
 .btn-container {

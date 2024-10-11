@@ -16,6 +16,10 @@
         height: 200px;
         margin: 0 auto 2rem;
     }
+    
+    #profile {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 600px) {
