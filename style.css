@@ -417,7 +417,8 @@ section{
 .about-me-text {
     font-size: 1.25rem;
     font-weight: 600;
-    margin: 2rem;
+    margin: 1.6rem;
+    margin-bottom: 2rem;
     color: #22223b;
 }
 
