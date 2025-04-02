@@ -23,6 +23,17 @@
 }
 
 @media screen and (max-width: 600px) {
+    .experience-details-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+
+    .experience-left-container, .experience-right-container {
+        width: 90%;
+    }
+
     .section__text h1 {
         font-size: 2rem;
     }

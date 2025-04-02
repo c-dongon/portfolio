@@ -299,8 +299,14 @@ section{
 
 .section__text__p2 {
     font-size: 1.75rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
     color: #2196f3;
+}
+
+.section__text__p3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1064a9;
 }
 
 .title {
@@ -495,6 +501,82 @@ section{
     padding-bottom: 0vh;
     padding-top: 4vh;
 
+}
+
+#experience {
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}
+
+.experience-text {
+    font-size: 1rem;
+    text-align: center;
+    color: #22223b;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.experience-details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    width: fit-content;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.experience-left-container, .experience-right-container {
+    width: 50%;
+    padding: 0.5rem;
+}
+
+
+
+.experience-images-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.experience-images-container img {
+    aspect-ratio: 1;
+    width: 3rem;
+}
+
+.experience-bullets {
+    font-size: 1rem;
+    text-align: left;
+    color: #22223b;
+    font-weight: 500;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+}
+
+.experience-bullets li {
+    padding-bottom: 1rem;
+}
+
+.cioptimize-title {
+    font-family: 'rubik';
+    font-weight: 500;
+}
+
+.cioptimize-container {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .skills-section {

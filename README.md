@@ -3,7 +3,8 @@ This is the repository for my personal portfolio, created with an intuitive and 
 
 ## Features
 - Contact information
-- Display of projects with respective links
 - List of technical skills
+- Relevant experience
+- Display of projects with respective links
 - Responsive design for mobile and desktop
 
